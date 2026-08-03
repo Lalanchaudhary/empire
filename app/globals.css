@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --background: #04130e;
+  --foreground: #edf5e8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: "Courier New", monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* EMPIRE's forest, gold, and neon-green visual system. */
+.empire-theme {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(163, 226, 35, 0.14), transparent 28rem),
+    radial-gradient(circle at 0% 35%, rgba(17, 91, 53, 0.32), transparent 36rem),
+    #04130e;
+}
+
+.empire-navbar {
+  background: rgba(4, 19, 14, 0.92) !important;
+  border-color: rgba(190, 255, 57, 0.22) !important;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.32);
+}
+
+.empire-theme .bg-black,
+.empire-theme .bg-\[\#151515\],
+.empire-theme .bg-zinc-950 {
+  background-color: #061b13;
+}
+
+.empire-theme .bg-white {
+  background: linear-gradient(145deg, #e9f0df, #c7d9ba);
+}
+
+.empire-theme .text-white { color: #f5f8ed; }
+.empire-theme .text-black { color: #07170f; }
+.empire-theme .text-zinc-200,
+.empire-theme .text-zinc-300 { color: #d6e4d2; }
+.empire-theme .text-zinc-400 { color: #a8bea9; }
+.empire-theme .text-zinc-500,
+.empire-theme .text-zinc-600 { color: #77927d; }
+
+.empire-theme .text-yellow-700 { color: #f3c84b; }
+.empire-theme .text-yellow-500,
+.empire-theme .text-yellow-400 { color: #d6ff45; }
+.empire-theme .bg-yellow-600,
+.empire-theme .bg-yellow-700 {
+  background: linear-gradient(135deg, #f9d766, #c58b19);
+}
+.empire-theme .hover\:bg-yellow-300:hover { background: #e4ff67; }
+.empire-theme .hover\:bg-yellow-950\/40:hover { background: rgba(116, 168, 25, 0.22); }
+
+.empire-theme .border-yellow-500\/20,
+.empire-theme .border-yellow-900\/60,
+.empire-theme .border-yellow-900\/70,
+.empire-theme .border-zinc-700,
+.empire-theme .border-zinc-800,
+.empire-theme .border-white\/10 {
+  border-color: rgba(165, 226, 69, 0.23);
+}
+
+.empire-theme .bg-yellow-950\/40 { background-color: rgba(105, 126, 22, 0.23); }
+.empire-theme .odd\:bg-zinc-950:nth-child(odd) { background-color: #0a2418; }
+.empire-theme .even\:bg-black:nth-child(even) { background-color: #06160f; }
+.empire-theme .border-l-2 { border-color: #b9ee42; }
+.empire-theme .shadow-yellow-950\/20,
+.empire-theme .shadow-yellow-950\/30 { --tw-shadow-color: rgba(115, 170, 30, 0.2); }
+
+.empire-navbar .text-slate-200 { color: #e3e9dc; }
+.empire-navbar .text-slate-300 { color: #c0d0bc; }
+.empire-navbar .hover\:text-yellow-500:hover,
+.empire-navbar .hover\:text-yellow-400:hover { color: #d6ff45; }
+.empire-navbar .border-yellow-950 { border-color: rgba(190, 255, 57, 0.22); }
+.empire-navbar .bg-\[\#090909\] { background: #0a2518; }
+.empire-navbar .bg-yellow-600,
+.empire-navbar .from-yellow-700 { background: linear-gradient(135deg, #f9d766, #c58b19); }
+.empire-navbar .to-yellow-500 { --tw-gradient-to: #e6b22e; }
+.empire-navbar .text-black { color: #07170f; }
