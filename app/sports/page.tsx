@@ -31,7 +31,7 @@ export default function SportsPage() {
             Discover sports coverage built for fans who want a smooth, reliable way to follow the action.
           </p>
           <a
-            href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.."
+            href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex rounded-md bg-yellow-700 px-7 py-3 text-sm font-black uppercase text-black shadow-lg shadow-yellow-950/30 transition hover:bg-yellow-300"
@@ -86,7 +86,7 @@ export default function SportsPage() {
             <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-zinc-400">
               Contact the EMPIRE support team for account and platform guidance. Please participate responsibly and only where permitted by local law.
             </p>
-            <a href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.." target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex rounded-md bg-yellow-700 px-7 py-3 text-sm font-black uppercase text-black transition hover:bg-yellow-300">
+            <a href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.." target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex rounded-md bg-yellow-700 px-7 py-3 text-sm font-black uppercase text-black transition hover:bg-yellow-300">
               Contact Us
             </a>
           </div>

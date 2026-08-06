@@ -84,7 +84,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.."
+              href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.."
               target="_blank"
               rel="noopener noreferrer"
               className="px-7 py-3 rounded-full bg-gradient-to-r from-yellow-700 to-yellow-500 text-black font-semibold shadow-lg shadow-yellow-700/40 hover:scale-105 transition"
@@ -94,16 +94,26 @@ export default function Navbar() {
 
           </div>
 
-          {/* Mobile Icon */}
-          <button
-            onClick={() => setOpen(!open)}
-            className="lg:hidden text-slate-200"
-            type="button"
-            aria-expanded={open}
-            aria-label={open ? "Close navigation menu" : "Open navigation menu"}
-          >
-            {open ? <X size={30} /> : <Menu size={30} />}
-          </button>
+          {/* Mobile actions */}
+          <div className="flex items-center gap-3 lg:hidden">
+            <a
+              href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-yellow-600 px-4 py-2 text-xs font-bold text-black transition hover:scale-105"
+            >
+              Contact
+            </a>
+            <button
+              onClick={() => setOpen(!open)}
+              className="text-slate-200"
+              type="button"
+              aria-expanded={open}
+              aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+            >
+              {open ? <X size={30} /> : <Menu size={30} />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -133,16 +143,6 @@ export default function Navbar() {
             >
               Online Cricket ID
             </Link>
-
-            <a
-              href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.."
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-              className="bg-yellow-600 text-black text-center py-3 rounded-full"
-            >
-              Contact Us
-            </a>
 
           </div>
         </div>

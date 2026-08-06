@@ -136,7 +136,7 @@ export default function Home() {
             betting experience.
           </p>
           <a
-            href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.."
+            href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.."
             target="_blank"
             rel="noopener noreferrer"
             className="mt-7 inline-flex items-center justify-center rounded-md bg-yellow-600 px-7 py-3 text-sm font-black uppercase text-black shadow-lg shadow-yellow-500/20 transition hover:bg-yellow-300"
@@ -340,7 +340,7 @@ export default function Home() {
               <span>Betting ID support</span>
             </div>
             <a
-              href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.."
+              href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.."
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex rounded-md bg-yellow-700 px-7 py-3 text-sm font-black uppercase text-white hover:bg-yellow-300"
@@ -358,6 +358,42 @@ export default function Home() {
               must be 18+ and responsible for checking local laws before using a
               betting ID. Please play responsibly.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="payments" className="bg-black px-5 py-14 sm:px-8 lg:px-12">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-2xl font-black text-white">
+            Payment <span className="text-yellow-700">Transactions</span>
+          </h2>
+          <p className="mt-2 text-sm text-zinc-300">
+            Genuine, anonymized payment screenshots — verified by our support
+            team to ensure secure, reliable processing you can trust.
+          </p>
+
+          <div className="mt-6 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            {[
+              "payment1.png",
+              "payment2.png",
+              "payment3.png",
+              "payment4.png",
+              "payment5.png",
+              "payment6.png",
+            ].map((file) => (
+              <div
+                key={file}
+                className="rounded border border-zinc-800 bg-zinc-950 p-2 text-center"
+              >
+                <Image
+                  src={`/asset/${file}`}
+                  alt={file}
+                  width={440}
+                  height={280}
+                  className="mx-auto h-48 w-auto object-contain"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Send } from "lucide-react";
 
-const whatsappUrl = "https://wa.me/919315852784?text=I%20WANT%20ID%20HERE..";
+const whatsappUrl = "https://wa.me/918287832260?text=I%20WANT%20ID%20HERE..";
 
 export default function FloatingContactButtons() {
   return (
@@ -16,7 +16,7 @@ export default function FloatingContactButtons() {
         <Image src="/asset/WhatsApp_icon.png" alt="" width={48} height={48} />
       </a>
       <a
-        href="https://t.me/"
+        href="https://t.me/empireexchangee"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contact us on Telegram"

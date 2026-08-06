@@ -29,7 +29,7 @@ export default function ServicePage({
             {title} <span className="text-yellow-700">{highlight}</span>
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-7 text-zinc-300 sm:text-lg">{intro}</p>
-          <a href="https://wa.me/919315852784?text=I%20WANT%20ID%20HERE.." target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex rounded-md bg-yellow-700 px-7 py-3 text-sm font-black uppercase text-black shadow-lg shadow-yellow-950/30 transition hover:bg-yellow-300">
+          <a href="https://wa.me/918287832260?text=I%20WANT%20ID%20HERE.." target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex rounded-md bg-yellow-700 px-7 py-3 text-sm font-black uppercase text-black shadow-lg shadow-yellow-950/30 transition hover:bg-yellow-300">
             Contact Support
           </a>
         </div>
