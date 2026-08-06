@@ -380,17 +380,17 @@ export default function Home() {
               "payment4.png",
               "payment5.png",
               "payment6.png",
-            ].map((file) => (
+            ].map((file, idx) => (
               <div
                 key={file}
                 className="rounded border border-zinc-800 bg-zinc-950 p-2 text-center"
               >
                 <Image
                   src={`/asset/${file}`}
-                  alt={file}
-                  width={440}
-                  height={280}
-                  className="mx-auto h-48 w-auto object-contain"
+                  alt={`Anonymized payment screenshot ${idx + 1} — verified transaction evidence`}
+                  width={520}
+                  height={340}
+                  className="mx-auto h-[220px] w-auto object-contain"
                 />
               </div>
             ))}
