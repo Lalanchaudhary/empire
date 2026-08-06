@@ -13,6 +13,10 @@ const slides = [
     src: "/asset/hero2.png",
     alt: "EMPIRE cricket banner",
   },
+    {
+    src: "/asset/hero3.png",
+    alt: "EMPIRE club banner",
+  },
 ];
 
 export default function HeroCarousel() {
